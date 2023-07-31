@@ -1,16 +1,8 @@
 "use strict";
-//use const where variable values do not change
-const a = 5;
-const b = 33;
-const c = "best";
-//I suggest use let instead of var everywhere, 
-//becuase let has blocked scope
-if (true) {
-    let z = 4;
-    //use z
-}
-else {
-    let z = "string";
-    //use z
-}
-console.log("let: " + z); // Error: z is not defined in this scope
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const first_1 = __importDefault(require("./first"));
+const second_1 = require("./second");
+console.log(first_1.default + second_1.b + second_1.c);
