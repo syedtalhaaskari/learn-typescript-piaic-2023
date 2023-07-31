@@ -1,0 +1,23 @@
+{
+  "name": "learn-typescript-piaic-2023",
+  "version": "1.0.0",
+  "description": "https://github.com/panaverse/learn-typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedtalhaaskari/learn-typescript-piaic-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedtalhaaskari/learn-typescript-piaic-2023/issues"
+  },
+  "homepage": "https://github.com/syedtalhaaskari/learn-typescript-piaic-2023#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
+}
