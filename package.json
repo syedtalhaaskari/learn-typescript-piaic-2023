@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/syedtalhaaskari/learn-typescript-piaic-2023#readme",
   "devDependencies": {
+    "@types/inquirer": "^9.0.3",
     "@types/node": "^20.4.5"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.9"
   }
 }
