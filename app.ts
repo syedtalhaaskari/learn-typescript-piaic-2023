@@ -1,4 +1,4 @@
-import a from "./first";
-import { b, c as d } from "./second";
+import a from "./first.js";
+import { b, c } from "./second.js";
 
-console.log(a + b + d);
+console.log(a + b + c);

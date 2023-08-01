@@ -1,8 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const first_1 = __importDefault(require("./first"));
-const second_1 = require("./second");
-console.log(first_1.default + second_1.b + second_1.c);
+var first_js_1 = require("./first.js");
+var second_js_1 = require("./second.js");
+console.log(first_js_1.default + second_js_1.b + second_js_1.c);
