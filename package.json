@@ -1,6 +1,6 @@
 {
 	"name": "learn-typescript-piaic-2023",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "https://github.com/panaverse/learn-typescript",
 	"main": "index.js",
 	"type": "module",
