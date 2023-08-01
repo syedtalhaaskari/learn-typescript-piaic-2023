@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+import chalk from "chalk";
 import inquirer from "inquirer";
 let answers = await inquirer.prompt([
     {
@@ -6,4 +8,4 @@ let answers = await inquirer.prompt([
         message: "Enter your Age:"
     }
 ]);
-console.log("Insha Allah, in " + (60 - answers.age) + " years you will be 60 years old.");
+console.log(chalk.blue("Insha Allah, in " + (60 - answers.age) + " years you will be 60 years old."));
