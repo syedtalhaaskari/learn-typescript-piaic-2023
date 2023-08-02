@@ -17,16 +17,5 @@
 	"bugs": {
 		"url": "https://github.com/syedtalhaaskari/learn-typescript-piaic-2023/issues"
 	},
-	"homepage": "https://github.com/syedtalhaaskari/learn-typescript-piaic-2023#readme",
-	"devDependencies": {
-		"@types/inquirer": "^9.0.3",
-		"@types/node": "^20.4.5"
-	},
-	"dependencies": {
-		"chalk": "^5.3.0",
-		"inquirer": "^9.2.9"
-	},
-	"bin": {
-		"age_calc": "app.js"
-	}
+	"homepage": "https://github.com/syedtalhaaskari/learn-typescript-piaic-2023#readme"
 }
