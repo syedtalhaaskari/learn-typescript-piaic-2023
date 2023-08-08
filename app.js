@@ -1,15 +1,15 @@
+// anonymous
 let teacher = {
     name: "Zeeshan",
-    experience: "10"
+    exp: 10
 };
-console.log(teacher.name);
-console.log(teacher["experience"]);
-// Type Declaration
-let student;
-student = {
+let student = {
     name: "Hira",
     age: 30
 };
 console.log(student["name"]);
 console.log(student.age);
+let storeManager = {
+    name: "Bilal"
+};
 export {};

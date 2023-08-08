@@ -1,22 +1,31 @@
-let teacher = {
+// anonymous
+
+let teacher: { name: string, exp: number } = {
     name: "Zeeshan",
-    experience: "10"
+    exp: 10
 }
 
-console.log(teacher.name);
-console.log(teacher["experience"]);
-
-
-// Type Declaration
-let student : {
+// Aliased Object Type
+type Student = {
     name: string,
-    age: number
+    age?: number
 }
 
-student = {
+let student: Student = {
     name: "Hira",
     age: 30
 }
 
 console.log(student["name"]);
 console.log(student.age);
+
+// Interfaces
+
+interface Manager {
+    name: string,
+    subordiates?: number
+}
+
+let storeManager: Manager = {
+    name: "Bilal"
+}
